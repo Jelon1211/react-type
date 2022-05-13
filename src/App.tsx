@@ -1,6 +1,6 @@
 import React from "react";
 
-//Typescript
+//Typescript 1
 function App() {
   return (
     <div className="App">
