@@ -1,6 +1,6 @@
 import React from "react";
 
-//Typescript 6
+//count
 function App() {
   return (
     <div className="App">
