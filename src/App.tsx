@@ -1,12 +1,8 @@
-import React from "react";
+import Count from "./component";
+import "./app.css";
 
-//count2
 function App() {
-  return (
-    <div className="App">
-      <h1>Hello World</h1>
-    </div>
-  );
+  return <Count initialCount={0} />;
 }
 
 export default App;
