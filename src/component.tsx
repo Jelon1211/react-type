@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-export default function Count({ initCount }: any) {
+const Count = ({ initCount }: any) => {
   const [count, setCount] = useState(initCount);
 
   const increment = () => {
@@ -10,7 +10,7 @@ export default function Count({ initCount }: any) {
   const decrement = () => {
     setCount((currCount: number) => currCount - 1);
   };
-
+  // comment
   return (
     <div>
       <button onClick={decrement}>-</button>
@@ -18,4 +18,6 @@ export default function Count({ initCount }: any) {
       <button onClick={increment}>+</button>
     </div>
   );
-}
+};
+
+export default Count;
