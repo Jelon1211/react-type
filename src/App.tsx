@@ -1,8 +1,8 @@
-import Count from "./component";
+import Topbar from "./components/topbar/Topbar";
 import "./app.css";
 
 function App() {
-  return <Count initCount={0} />;
+  return <Topbar />;
 }
 
 export default App;
