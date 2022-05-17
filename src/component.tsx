@@ -10,7 +10,7 @@ const Count = ({ initCount }: any) => {
   const decrement = () => {
     setCount((currCount: number) => currCount - 1);
   };
-  // comment 4
+  // comment 5
   return (
     <div>
       <button onClick={decrement}>-</button>
