@@ -1,4 +1,16 @@
 body {
-  background-color: rgb(57, 27, 27);
+  background-color: #f4f5fa;
   color: black;
+  margin: 0;
+}
+
+.container {
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.others {
+  flex: 4;
+  background-color: rgb(21, 66, 66);
 }

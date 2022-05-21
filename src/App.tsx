@@ -6,7 +6,10 @@ function App() {
   return (
     <div>
       <Topbar />
-      <Sidebar />
+      <div className="container">
+        <Sidebar />
+        <div className="others">Other pages</div>
+      </div>
     </div>
   );
 }
