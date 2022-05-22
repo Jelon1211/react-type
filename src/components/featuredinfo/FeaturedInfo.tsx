@@ -6,9 +6,9 @@ export default function FeaturedInfo() {
     <div className="featured">
       <div className="featuredItem">
         <span className="featuredTitle">Open positions</span>
-        <div className="featuredMoneyContainer">
-          <span className="featuredMoney">156</span>
-          <span className="featuredMoneyRate">
+        <div className="featuredPositionsContainer">
+          <span className="featuredNumber">156</span>
+          <span className="featuredNumberRate bull">
             +38% <ArrowUpward className="featuredIcon" />
           </span>
         </div>
@@ -16,24 +16,29 @@ export default function FeaturedInfo() {
       </div>
       <div className="featuredItem">
         <span className="featuredTitle">Candidates</span>
-        <div className="featuredMoneyContainer">
-          <span className="featuredMoney">24,5K</span>
-          <span className="featuredMoneyRate">
+        <div className="featuredPositionsContainer">
+          <span className="featuredNumber">24,5K</span>
+          <span className="featuredNumberRate bear">
             -22%
             <ArrowDownward className="featuredIcon negative" />
           </span>
         </div>
         <span className="featuredSub">Last week</span>
       </div>
-      <div className="featuredItem">
-        <span className="featuredTitle">General</span>
-        <div className="featuredMoneyContainer">
-          <span className="featuredMoney">$2,225</span>
-          <span className="featuredMoneyRate">
-            +2.4 <ArrowUpward className="featuredIcon" />
-          </span>
+      <div className="general">
+        <div className="featuredItem">
+          <span className="featuredTitle">General</span>
+          <div className="featuredInfoContainer">
+            <span className="featuredInfo">Total 48.5% growth</span>
+            <span className="featuredInfoMonth"> this month</span>
+          </div>
+          <div className="featuredPositionsContainer">
+            <span className="featuredNumber">$2,225</span>
+            <span className="featuredNumberRate bear">
+              +2.4 <ArrowUpward className="featuredIcon" />
+            </span>
+          </div>
         </div>
-        <span className="featuredSub">Compared to last month</span>
       </div>
     </div>
   );
