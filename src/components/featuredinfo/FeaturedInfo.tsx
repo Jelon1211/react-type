@@ -37,7 +37,7 @@ export default function FeaturedInfo() {
         <div className="featuredItem">
           <span className="featuredTitle">General</span>
           <div className="featuredInfoContainer">
-            <span className="featuredInfo">Total 48.5% growth</span>
+            <span className="featuredInfo">Total 48.5% growth 😎</span>
             <span className="featuredInfoMonth"> this month</span>
           </div>
           <div className="featuredPositionsContainer">
