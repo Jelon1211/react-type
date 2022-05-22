@@ -55,18 +55,33 @@
 .featuredIcon {
   font-size: 14px;
   margin-left: 5px;
-  color: green;
+  color: rgb(16, 217, 16);
 }
 
 .featuredIcon.negative {
   color: red;
 }
 
-.featuredSub {
+.featuredSubContainer {
   font-size: 15px;
   color: gray;
+  border-radius: 30px;
+  background-color: #f2eaff;
+  max-width: 100px;
+  width: fit-content;
 }
 
-.general {
+.yearly,
+.weekly {
+  margin: 10px;
+}
+.weekly {
+  color: d6ebeb;
+}
+.yearly {
+  color: blueviolet;
+}
+
+.generalItem {
   flex: 3;
 }

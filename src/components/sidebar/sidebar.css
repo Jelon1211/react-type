@@ -1,6 +1,6 @@
 .sidebar {
   flex: 1;
-  height: cal(100vh - 50px);
+  height: calc(100vh - 50px);
   position: sticky;
 }
 

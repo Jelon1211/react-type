@@ -1,5 +1,9 @@
 import "./featuredinfo.css";
-import { ArrowDownward, ArrowUpward } from "@mui/icons-material";
+import {
+  ArrowDownward,
+  ArrowUpward,
+  TrendingUpTwoTone,
+} from "@mui/icons-material";
 
 export default function FeaturedInfo() {
   return (
@@ -12,7 +16,9 @@ export default function FeaturedInfo() {
             +38% <ArrowUpward className="featuredIcon" />
           </span>
         </div>
-        <span className="featuredSub">yearly</span>
+        <div className="featuredSubContainer">
+          <span className="yearly">yearly</span>
+        </div>
       </div>
       <div className="featuredItem">
         <span className="featuredTitle">Candidates</span>
@@ -23,9 +29,11 @@ export default function FeaturedInfo() {
             <ArrowDownward className="featuredIcon negative" />
           </span>
         </div>
-        <span className="featuredSub">Last week</span>
+        <div className="featuredSubContainer">
+          <span className="weekly">last week</span>
+        </div>
       </div>
-      <div className="general">
+      <div className="generalItem">
         <div className="featuredItem">
           <span className="featuredTitle">General</span>
           <div className="featuredInfoContainer">
@@ -33,10 +41,11 @@ export default function FeaturedInfo() {
             <span className="featuredInfoMonth"> this month</span>
           </div>
           <div className="featuredPositionsContainer">
-            <span className="featuredNumber">$2,225</span>
-            <span className="featuredNumberRate bear">
-              +2.4 <ArrowUpward className="featuredIcon" />
-            </span>
+            <div className="featuredEmployees">
+              <div></div>
+            </div>
+            <div className="featuredCandidates"></div>
+            <div className="featuredInterviews"></div>
           </div>
         </div>
       </div>
