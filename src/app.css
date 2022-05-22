@@ -9,8 +9,3 @@ body {
   padding: 0;
   display: flex;
 }
-
-.others {
-  flex: 4;
-  background-color: rgb(21, 66, 66);
-}

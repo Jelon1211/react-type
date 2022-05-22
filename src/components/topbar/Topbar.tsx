@@ -1,20 +1,16 @@
 import "./topbar.css";
-import { NotificationsNone, Language, Settings } from "@mui/icons-material";
+import { NotificationsNone, Settings } from "@mui/icons-material";
 
 const Topbar = () => {
   return (
     <div className="topbar">
       <div className="topbarWrapper">
         <div className="topLeft">
-          <div className="logo">Admin7</div>
+          <div className="logo">HR_BOARD</div>
         </div>
         <div className="topRight">
           <div className="topbarIconContainer">
             <NotificationsNone />
-            <span className="topIconBag">2</span>
-          </div>
-          <div className="topbarIconContainer">
-            <Language />
             <span className="topIconBag">2</span>
           </div>
           <div className="topbarIconContainer">
