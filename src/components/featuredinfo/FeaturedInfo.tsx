@@ -5,8 +5,6 @@ import {
   TrendingUpTwoTone,
 } from "@mui/icons-material";
 
-//commnet 3
-
 export default function FeaturedInfo() {
   return (
     <div className="featured">
