@@ -4,7 +4,7 @@ import {
   ArrowUpward,
   TrendingUpTwoTone,
 } from "@mui/icons-material";
-s;
+
 export default function FeaturedInfo() {
   return (
     <div className="featured">
